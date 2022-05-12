@@ -213,3 +213,10 @@ footer {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 525px) {
+ #title-box {
+   width: 25rem;
+   height: 15rem;
+ }
+}
