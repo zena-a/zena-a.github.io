@@ -69,7 +69,7 @@ h1 {
 /*Hero Section*/
 
 .hero {
-  background-image: url(images/beach.jpg);
+  background-image: url(/images/beach.jpg);
   background-size: cover;
   background-color: #4E4D77;
   margin-right: 0;
