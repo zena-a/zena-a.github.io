@@ -13,4 +13,4 @@ page, using the grid layout and cards. This is a great project for beginners loo
 
 ### Run: 
 
-Visit the link here -> 
+Visit the link here -> https://zena-a.github.io/
