@@ -84,7 +84,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.7);
   width: 31.25rem;
   height: 19rem;
-  padding: 5% 5%;
+  padding: 5%;
   color: whitesmoke;
   text-align: center;
 }
@@ -218,5 +218,6 @@ footer {
  #title-box {
    width: 25rem;
    height: 15rem;
+   padding: 2%;
  }
 }
