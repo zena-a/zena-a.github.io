@@ -220,4 +220,8 @@ footer {
    height: 15rem;
    padding: 2%;
  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
 }
