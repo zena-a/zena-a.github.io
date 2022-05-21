@@ -221,8 +221,7 @@ footer {
    padding: 2%;
  }
   
-  h1 {
-    font-size: 1rem;
-    line-height: 0;
+ #title-box h1 {
+    font-size: 2rem;
   }
 }
