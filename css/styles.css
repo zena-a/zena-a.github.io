@@ -215,13 +215,16 @@ footer {
 }
 
 @media (max-width: 525px) {
- #title-box {
-   width: 25rem;
-   height: 15rem;
-   padding: 2%;
- }
+  #title-box {
+    width: 25rem;
+    height: 15rem;
+  }
   
- #title-box h1 {
-    font-size: 2rem;
+  #title-box h1 {
+    font-size: 2.5rem;
+  }
+  
+  #title {
+    font-size: 1rem;  
   }
 }
