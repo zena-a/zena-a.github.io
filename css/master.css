@@ -1,0 +1,265 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700&display=swap');
+
+/*CSS Variables*/
+:root {
+    /*Colors*/
+    --background: #1D1E2C;
+    --bg-second: rgba(49,51,75,0.5);
+    --primary: #31334B;
+    --secondary: #fff;
+    --accent: #00A8E8;
+    
+    /*Typography*/
+    --font: 'Noto Sans', sans-serif;
+    --title: 5rem;
+    --heading: 2.5rem;
+    --body: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--font);
+  font-size: var(--body);
+  color: var(--secondary);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/*Title*/
+h1 {
+  font-size: var(--title);
+  font-weight: 700;
+}
+
+/*Subtitle* & Section*/
+h2 {
+  font-size: var(--heading);
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+small {
+  display: block;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.button-box {
+  margin-top: 3rem;
+}
+
+.section-heading {
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+.subsection-heading {
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.subtitle {
+  display: block;
+  margin: 0.75rem 0 0.75rem 0;
+  font-weight: 500;
+}
+
+.subtitle:hover {
+  color: var(--accent);
+}
+
+.btn {
+  padding: 0.75rem;
+  margin-right: 2rem;
+}
+
+.btn:hover{
+  background-color: var(--accent);
+}
+
+.btn-outline-primary {
+  border-color: var(--accent);
+  color: var(--secondary);
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/*Navigation Bar*/
+.navbar {
+  margin: 0 5rem;
+}
+
+.navbar-brand {
+  margin: auto 2% auto;
+}
+
+.navbar-brand:hover {
+  color: var(--accent);
+}
+
+.nav-link {
+  font-weight: light;
+  font-size: 1rem;
+  color: var(--secondary);
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  margin-right: 2%;
+  font-size: 1.25rem;
+  line-height: 1;
+  border: 0.5px solid var(--secondary);
+  color: var(--secondary);
+  border-radius: 0.25rem;
+  transition: box-shadow .15s ease-in-out;
+}
+
+#logo-box {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+/*Hero Section*/
+#intro {
+  font-size: 2.5rem;
+}
+
+#author-name {
+  color: var(--accent);
+}
+
+#focus {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+/*About Section*/
+.about-img {
+  width: 80%;
+  height:fit-content;
+  justify-self: end;
+}
+
+.description {
+  margin-top: 2%;
+  text-align: left;
+}
+
+/*Skills Section*/
+
+/*Projects*/
+
+.img-box {
+  background-color: var(--secondary);
+  border-radius: 2%;
+  border: 1px solid var(--bg-second);
+}
+
+.img-fluid {
+  width: 15rem;
+  margin-bottom: 2%;
+}
+
+.img-fluid:hover {
+  width: 16rem;
+}
+
+.description-box {
+  background-color: var(--bg-second);
+  border-radius: 2%;
+  height:fit-content;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  background-color: var(--accent);
+  font-size: 0.85rem;
+  padding: 0.5rem;
+  margin: 0 1rem 1rem 0;
+}
+
+/*Experience*/
+
+
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: #399FBE;
+  color: whitesmoke;
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Footer*/
+footer {
+  margin: 5% auto 0;
+  text-align: center;
+}
+
+footer .btn {
+  margin-right: 0;
+}
+
+#footer-socials {
+  margin: 1rem 0;
+}
+
+.social-icon {
+  color: var(--secondary);
+  margin: 0.5rem;
+}
+
+.social-icon:hover {
+  color: var(--accent);
+}
+
+.copyright {
+  margin: 1rem 0;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 500px){
+  .hero-img {
+    display: none;
+  }
+}
