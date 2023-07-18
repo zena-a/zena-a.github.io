@@ -4,36 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Zena Anthony's portfolio website">
-  <meta name="keywords" content="web developer, portfolio, web designer, projects">
+  <meta name="author" content="Zena Anthony" href="https://github.com/zena-a">
+  <link rel="canonical" href="https://zena-a.github.io">
   <!--Favicon-->
-  <link rel="icon" href="/images/favicon.ico">
+  <link rel="icon" href="images/favicon.ico">
   <!--Bootstrap-->
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <!--CSS Stylesheet-->
-  <link rel="stylesheet" href="/css/styles.css">
-  <!--Google Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
   <!--Icon Style Link-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <title>Zena Anthony</title>
 </head>
   <!--HEADER SECTION-->
-  <header class="container-fluid" id="home">
+  <header id="home">
     
     <!--NAVIGATION-->
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#"><img src="/images/ZA Initials-Small.png" width="30px" height="30px" class="d-inline-block align-top" alt="zena's logo">  Zena Anthony</a>
+      <a class="navbar-brand" href="/index.html"><img id="logo-box" src="images/za-logo.png" class="d-inline-block align-top" alt="Zena Anthony's logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span>X</span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
@@ -43,267 +36,168 @@
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#experience">Experience</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li> -->
         </ul>
     </nav>
 
     <!--HERO SECTION-->
-    <div class="hero row">
-      <div class="col-lg-6">
-        <img class="hero-img" src="/images/zena-illustrated.png" alt="cartoon image of zena">
+    <div class="container">
+      <p id="intro">Hi, I'm</p>
+      <h1 id="author-name">Zena Anthony</h1>
+      <h2>Junior Software Developer</h2>
+      <p id="focus">With a focus on python, frontend, and game development.</p>
+      <div class="button-box d-grid gap-2 d-md-block">
+        <a href="mailto:zenaanthony@outlook.com"><button type="button" class="btn btn-outline-primary">Let's Connect</button></a>
+        <a href="https://devignwithzee.wordpress.com/"><button type="button" class="btn btn-outline-primary">My Blog</button></a>
+        <a href="/game-developer.html"><button type="button" class="btn btn-outline-primary">Game Developer Portfolio</button></a>
       </div>
-      <div class="col-lg-6">
-        <div id="title-box">
-          <h1>Zena Anthony</h1>
-          <h2 id="title">web developer + web designer</h2>
-          <!--SOCIAL MEDIA ICONS-->
-          <a href="mailto:hello@zenaanthony.me" target="_blank"><i class="social-icon fa-solid fa-envelope fa-xl"></i></a>
-          <a href="https://www.linkedin.com/in/zenaanthony/" target="_blank"><i class="social-icon fa-brands fa-linkedin-in fa-xl"></i></a>
-          <a href="https://github.com/zena-a" target="_blank"><i class="social-icon fa-brands fa-github-square fa-xl"></i></a>
-          <a href="https://twitter.com/zimzena" target="_blank"><i class="social-icon fa-brands fa-twitter fa-xl"></i></a>
-          <a href="https://www.behance.net/zenaanthony" target="_blank"><i class="social-icon fa-brands fa-behance-square fa-xl"></i></a>
-        </div>
-      </div>
-    </div>
     </div>
   </header>
 
   <!--ABOUT ME SECTION-->
   <section class="container" id="about">
-    <h1 class="section-heading">About Me</h1>
     <div class="row">
-      <div class="col-lg-3">
-        <img class="about-img" src="/images/zena.jpg" alt="image of zena">
-      </div>
-      <div class="description col-lg-9">
-        <p>I'm Zena Anthony, a web developer 💻 and web designer 🖋. Currently a student pursuing a Bachelor's Degree in Computer Science, whilst doing freelancing
-          and learning more about Web3.
-        </p>
-        <p>I have experience in website building with HTML, CSS and JavaScript as well as managing WordPress and BigCommerce websites. 
-          Gained experience in web and graphic design by freelancing and volunteer work.         
-        </p>
-        <p>I own a blog called <a href="https://devignwithzee.com/">Devign with Zee</a> where I share my journey on becoming a better web developer and designer. 
-          I share tips, resources and coding tutorials on my blog.
-        </p>
-      </div>
-    </div>
-
-    <!--EDUCATION SECTION-->
-    <h2 class="section-heading">Education</h2>
-    <div class="row">
-
-      <div class="degree-column col-lg-4">
-        <div class="card text-white bg-dark mb-3">
-          <div class="card-header">
-            <h3>Associate's Degree</h3>
+      <div class="description col-lg-6">
+        <h2 class="section-heading">About Me</h2>
+        <p>Hello, I'm Zena! I'm a tech enthusiast passionate about software development, design, and other tech streams. I enjoy building web and desktop applications with my go to programming language being Python. I value clean code, continuous learning, and collaboration.</p>
+        <p>Additionally, I share my learnings and projects on my blog, to hopefully encourage others interested in development and design. If I'm not studying or working, I'm tackling my creative pursuits in drawing or writing!</p>
+        <!--EDUCATION SUBSECTION-->
+        <div class="subsection-heading">Education</div>
+        <div class="row">
+          <div class="col-lg-6">
+            <span class="highlight">B.Sc in Computer Science</span>
+            <p>Minor in Business <br> (In Progress)</p>
           </div>
-          <div class="card-body">
-            <p>Institution: Dominica State College <br> Subject: Information Technology</p>
-          </div>
-          <div class="card-footer">
-            <small>Graduated in 2018 (Honors)</small>
+          <div class="col-lg-6">
+            <span class="highlight">Associate Degree (Double Major)</span>
+            <p>Computer Science, Information Technology</p>
           </div>
         </div>
       </div>
-      <div class="degree-column col-lg-4">
-        <div class="card text-white bg-dark mb-3">
-          <div class="card-header">
-            <h3>Associate's Degree</h3>
-          </div>
-          <div class="card-body">
-            <p>Institution: Dominica State College <br> Subject: Computer Science</p>
-          </div>
-          <div class="card-footer">
-            <small>Graduated in 2018</small>
-          </div>
+        <div class="col-lg-6">
+          <img class="about-img" src="images/portfolio/zena-illustrated.png" alt="illustration of Zena Anthony">
         </div>
-      </div>
-      <div class="degree-column col-lg-4">
-        <div class="card text-white bg-dark mb-3">
-          <div class="card-header">
-            <h3>Bachelor's Degree</h3>
-          </div>
-          <div class="card-body">
-            <p>Institution: Carleton University <br> Subject: Computer Science</p>
-          </div>
-          <div class="card-footer">
-            <small>Graduating in 2023</small>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
 
   <!--SKILL SECTION-->
   <section class="container" id="skills">
-
-    <h1 class="section-heading">Skills</h1>
+    <h2 class="section-heading">Skills</h2>
     <div class="row">
-
-      <div class="skill-box col-lg-4">
-        <h2>Languages</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>C++</li>
-          <li>PHP</li>
-        </ul>
+      <div class="col-lg-4">
+        <div class="subsection-heading">Core Technical Skills</div>
+        <span class="badge">Python</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">HTML</span>
+        <span class="badge">CSS</span>
+        <span class="badge">Bootstrap</span>
+        <span class="badge">Django</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Git</span>
       </div>
-      <div class="skill-box col-lg-4">
-        <h2>Tools</h2>
-        <ul>
-          <li>Visual Studio Code</li>
-          <li>Adobe Illustrator</li>
-          <li>Adobe Photoshop</li>
-          <li>Adobe Indesign</li>
-          <li>Adobe XD</li>
-          <li>Figma</li>
-          <li>Canva</li>
-        </ul>
+      <div class="col-lg-4">
+        <div class="subsection-heading">Specialized Skills</div>
+        <span class="badge">Responsive Design</span>
+        <span class="badge">UI/UX Design</span>
+        <span class="badge">WordPress</span>
       </div>
-      <div class="skill-box col-lg-4">
-        <h2>Non-Technical</h2>
-        <ul>
-          <li>Leadership</li>
-          <li>Customer Service</li>
-          <li>Reliable</li>
-          <li>Organized</li>
-          <li>Copywriting/Documentation</li>
-          <li>Time Management</li>
-          <li>Team Player</li>
-        </ul>
+      <div class="col-lg-4">
+        <div class="subsection-heading">Tools and Technologies</div>
+        <span class="badge">Figma</span>
+        <span class="badge">Visual Studio Code</span>
+        <span class="badge">PyCharm IDE</span>
       </div>
-
     </div>
   </section>
 
-  <!--PROJECT SECTION-->
+  <!--PROJECTS SECTION-->
   <section class="container" id="projects">
+    <h2 class="section-heading">Projects</h2>
 
-    <h1 class="section-heading">Projects</h1>
-
-    <div class="accordion" id="accordionFlushExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Games
-          </button>
-        </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">
-
-            <div class="card border-info mb-3">
-              <div class="card-header">
-                <h3>Snake Game</h3>
-              </div>
-              <div class="card-body">
-                <a href="https://github.com/zena-a/snake-game" target="_blank"><img class="img-fluid" src="/images/Snake Game.png" alt="image of snake game"></a>
-                <p>
-                  A classic game with a snake character moving around the screen, looking for food. It grows longer as it eats, and must avoid bumping into its growing body.
-                </p>
-                <span class="badge">Python</span>
-              </div>
-              <div class="card-footer">
-                <small>Click image to view source code</small>
-              </div>
-            </div>
-
-            <div class="card border-info mb-3">
-              <div class="card-header">
-                <h3>Turtle Race Game</h3>
-              </div>
-              <div class="card-body">
-                <a href="https://github.com/zena-a/turtle-racing-game" target="_blank"><img class="img-fluid" src="/images/turtle race game.png" alt="image of turtle race game"></a>
-                <p>
-                  A game with turtles of different colors racing towards the finish line. The player has to guess who will come out as the winner. 
-                </p>
-                <span class="badge">Python</span>
-              </div>
-              <div class="card-footer">
-                <small>Click image to view source code</small>
-              </div>
-            </div>
-
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="https://github.com/zena-a/dasheen-leaf_landing-page" target="_blank"><img class="img-box img-fluid" src="images/portfolio/dasheen-leaf_landing-page.gif" alt="gif of dasheen leaf landing page"></a>
+          <small>Click image/gif to view source code</small>
         </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            Web
-          </button>
-        </h2>
-        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">
-            
-            <div class="card border-info mb-3">
-              <div class="card-header">
-                <h3>Web Portfolio</h3>
-              </div>
-              <div class="card-body">
-                <a href="" target="_blank"><img class="img-fluid" src="images/web-portfolio.png" alt="image of web portfolio"></a>
-                <p>
-                  A personal webpage that acts as a resume, displaying my skills, experience and projects. 
-                </p>
-                <span class="badge">HTML</span>
-                <span class="badge">CSS</span>
-                <span class="badge">Bootstrap</span>
-                <span class="badge">JavaScript</span>
-              </div>
-              <div class="card-footer">
-                <small>Click image to view source code</small>
-              </div>
+        <div class="description-box col-lg-8">
+          <div class="row">
+            <div class="col-lg-9">
+              <span class="subsection-heading">Dasheen Leaf Landing Page</span>
             </div>
-            
-            <div class="card border-info mb-3">
-              <div class="card-header">
-                <h3>Roll the Dice Game</h3>
-              </div>
-              <div class="card-body">
-                <a href="https://github.com/zena-a/roll-the-dice" target="_blank"><img class="img-fluid" src="images/roll-the-dice-screenshot.png" alt="image of roll the dice game"></a>
-                <p>
-                  A game where players compete by rolling a dice and comparing values. The player with the highest dice value wins. The page needs to be refreshed to play again.
-                </p>
-                <span class="badge">HTML</span>
-                <span class="badge">CSS</span>
-                <span class="badge">JavaScript</span>
-              </div>
-              <div class="card-footer">
-                <small>Click image to view source code</small>
-              </div>
+            <div class="col-lg-3">
+              <a href="https://dasheen-leaf-landing-page.netlify.app/"><button type="button" class="btn btn-outline-primary">View Website</button></a>
             </div>
-            
           </div>
+          <p>
+            This is a personal website that showcases my skills and projects. It was built using different frontend technologies listed below, and hosted on Github pages. A web portfolio is something every developer should build.
+            Before jumping into the coding, I used Figma to create the design for both the mobile and desktop view. Also, I focused on responsiveness and learned a bit more about web accessibility to improve inclusivity. I am currently working on updated this project to include a backend with Django, and hosting separately with my own domain.
+          </p>
+          <span class="badge">Figma</span>
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">Bootstrap</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Git</span>
         </div>
       </div>
-      <!--
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            Software
-          </button>
-        </h2>
-        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">
-            
-          </div>
-        </div>
-      </div>
-      -->
-    </div>
 
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="https://github.com/zena-a/turtle-racing-game" target="_blank"><img class="img-box img-fluid" src="images/portfolio/turtle-racing-game.gif" alt="gif of turtle racing game"></a>
+          <small>Click image/gif to view source code</small>
+        </div>
+        <div class="description-box col-lg-8">
+          <span class="subsection-heading">Great Turtle Race</span>
+          <p>
+            A racing game with turtle players, where the user can place a bet on the turle they think will win. With my previous knowledge in Python, I wanted to try game development. I built this simple game using the turtle library that provides different methods and assets that can be used for visuals.
+            This was built for the desktop using the PyCharm IDE which is great for Python projects. Each iteration of the game will produce different results, due to the implementation of the random module.
+          </p>
+          <span class="badge">Python</span>
+          <span class="badge">Turtle Module</span>
+          <span class="badge">Random Module</span>
+          <span class="badge">PyCharm IDE</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="https://github.com/zena-a/snake-game" target="_blank"><img class="img-box img-fluid" src="images/portfolio/snake-game.gif" alt="gif of snake game"></a>
+          <small>Click image/gif to view source code</small>
+        </div>
+        <div class="description-box col-lg-8">
+          <span class="subsection-heading">Feed the Snake</span>
+          <p>
+            A classic snake game, where the user plays as the snake that eats different meals, and avoid eating it's own tail. I built this game using the Turtle library and implementing basic object oriented program concepts. 
+            The snake has to avoid eating it's tail and going outside of the border, whilst hunting for it's food. The user can control the snake using the arrow keys on their keyboard. Anytime the snake catches its prey, the 
+            user's score increases. The game ends when the snake collides with the border or eats it's tail. The score is displayed at the top of the screen. 
+          </p>
+          <span class="badge">Python</span>
+          <span class="badge">Turtle Module</span>
+          <span class="badge">Time Module</span>
+          <span class="badge">Object Oriented Programming</span>
+          <span class="badge">PyCharm IDE</span>
+        </div>
+      </div>
+
+      <!-- <span class="subsection-heading">More Projects</span> -->
+      <!--CAROUSEL-->
   </section>
 
   <!--EXPERIENCE SECTION-->
   <!--Display with Timeline-->
-  <section class="container" id="experience">
-    <h1 class="section-heading">Experience</h1>
+  <!-- <section class="container" id="experience">
+    <h2 class="section-heading">Experience</h2>
 
     <ul class="timeline-with-icons">
       <li class="timeline-item mb-5">
@@ -377,19 +271,18 @@
       </li>
     </ul>
 
-  </section>
+  </section> -->
 
   <footer>
     <!--SOCIAL MEDIA ICONS-->
-    <a href="mailto:hello@zenaanthony.me" target="_blank"><i class="social-icon fa-solid fa-envelope fa-xl"></i></a>
+    <a href="mailto:zenaanthony@outlook.com" target="_blank"><i class="social-icon fa-solid fa-envelope fa-xl"></i></a>
     <a href="https://www.linkedin.com/in/zenaanthony/" target="_blank"><i class="social-icon fa-brands fa-linkedin-in fa-xl"></i></a>
     <a href="https://github.com/zena-a" target="_blank"><i class="social-icon fa-brands fa-github-square fa-xl"></i></a>
     <a href="https://twitter.com/zimzena" target="_blank"><i class="social-icon fa-brands fa-twitter fa-xl"></i></a>
-    <a href="https://www.behance.net/zenaanthony" target="_blank"><i class="social-icon fa-brands fa-behance-square fa-xl"></i></a>
     <p class="copyright">© Copyright Zena Anthony</p>
   </footer>
 
   <!--Bootstrap Scripts-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
