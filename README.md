@@ -1,7 +1,6 @@
 # Web Portfolio 
 
 ## Description:
-Version 3
 My web portfolio is an ongoing project showcasing my skills, projects, and experience as a junior software developer. It serves as the central hub where potential employers, clients, or collaborators can learn more about me and explore my completed work. This is the 3rd version of my web portfolio with an updated design that fits my current preferences and interests.
 
 ## Features:
@@ -27,6 +26,10 @@ The web portfolio was built using HTML, CSS, and Bootstrap. It is a static webpa
 ### Run: 
 
 Visit the link here -> https://zena-a.github.io/
+
+## Project Demo:
+
+![screen-gif](./images/portfolio/web-portfolio.gif)
 
 ## Future Enhancements:
 
