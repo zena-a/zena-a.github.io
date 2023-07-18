@@ -50,6 +50,10 @@ small {
   margin: 1rem 0;
 }
 
+li {
+  line-height: 2;
+}
+
 .container {
   margin-top: 5%;
 }
